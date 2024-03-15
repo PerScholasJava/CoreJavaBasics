@@ -1,3 +1,5 @@
+package perscholas.java_basics;
+
 public class JavaBasicsClass {
     public static void main(String[] args) {
         int intNum1 = 5;
@@ -36,12 +38,12 @@ public class JavaBasicsClass {
         // Exercise 6a:
         int x = 5;
         int y = 6;
-        double q = (double) (y / x);
+        double q = (double) y / x;
 
         System.out.println("y/x: " + q);
 
         // Exercise 6b:
-        q = (double) y;
+        q = y;
         System.out.println("Cast y to a double: " + q);
 
         // Exercise 7:
